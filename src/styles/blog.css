@@ -1,0 +1,27 @@
+html {
+  @apply bg-gray-900 px-10;
+}
+
+body {
+  @apply mt-10;
+}
+
+h1 {
+  @apply text-3xl text-white my-5;
+}
+
+h2 {
+  @apply text-2xl text-blue-500 my-5;
+}
+
+h3 {
+  @apply text-xl text-white my-5;
+}
+
+p {
+  @apply text-white my-5;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
