@@ -2,6 +2,8 @@
 import BlogPost from '../components/BlogPost.astro';
 import { siteConfig } from '../config/site-config';
 import MainLayout from '../layouts/MainLayout.astro';
+
+const posts = await Astro.glob('./posts-old/*.{md,mdx}');
 ---
 
 <MainLayout title="Fernando's Blog">
@@ -14,9 +16,9 @@ import MainLayout from '../layouts/MainLayout.astro';
         {siteConfig.title}
       </h1>
 
-      <!-- <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
+      <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
         {posts.map((post) => <BlogPost {...post} />)}
-      </div> -->
+      </div>
     </div>
   </section>
 </MainLayout>
