@@ -7,9 +7,9 @@ import '../styles/blog.css';
 //   title?: string;
 // }
 
-const { title, ...rest } = Astro.props;
-const frontmatter = rest.frontmatter;
-console.log('🚀 ~ frontmatter:', frontmatter);
+const { title } = Astro.props; //, ...rest
+// const frontmatter = rest.frontmatter;
+// console.log('🚀 ~ frontmatter:', frontmatter);
 ---
 
 <html lang="en">
@@ -18,12 +18,12 @@ console.log('🚀 ~ frontmatter:', frontmatter);
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
 
     <ViewTransitions />
   </head>
   <body class="bg-gray-900">
-    <a href="/">Regresar</a>
+    <a href="/" id="btn-back">Regresar</a>
 
     <main class="mb-10 max-w-5xl m-auto px-2 py-2">
       <slot />

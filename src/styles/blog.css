@@ -1,5 +1,6 @@
 html {
   @apply bg-gray-900 px-10;
+  scroll-behavior: smooth;
 }
 
 body {
