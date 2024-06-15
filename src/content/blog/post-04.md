@@ -3,7 +3,7 @@ title: Construyendo una API REST con Node.js
 date: 2023-06-20
 description: En este tutorial, construiremos una API RESTful utilizando Node.js y Express.
 author: Bob Williams
-image: '/assets/images/post-04.png'
+image: 'images/post-04.png'
 tags: [Node.js, Express, API, Backend]
 ---
 
