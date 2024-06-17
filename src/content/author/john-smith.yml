@@ -1,2 +1,7 @@
 name: John Smith
 avatar: ./avatars/john-smith.webp
+twitter: johnsmith_dev
+linkedIn: https://www.linkedin.com/in/johnsmith-dev
+github: https://github.com/johnsmith
+bio: 'John Smith is a backend developer who specializes in building robust APIs and services. He is passionate about open-source projects and community-driven development.'
+subtitle: 'Backend Developer'

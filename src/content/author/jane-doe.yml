@@ -1,2 +1,7 @@
 name: Jane Doe
 avatar: ./avatars/jane-doe.webp
+twitter: janedoe_code
+linkedIn: https://www.linkedin.com/in/janedoe-code
+github: https://github.com/janedoe
+bio: 'Jane Doe is a software architect with a knack for designing scalable and efficient systems. She writes about software architecture, microservices, and DevOps.'
+subtitle: 'Software Architect'

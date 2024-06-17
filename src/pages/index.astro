@@ -20,7 +20,8 @@ const blogPosts = await getCollection(
         {siteConfig.title}
       </h1>
 
-      <a href="/blog/1">Blog paginado</a>
+      <a class="mr-2" href="/blog/1">Blog paginado</a>
+      <a class="mr-2" href="/authors">Autores</a>
 
       <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
         {blogPosts.map((post) => <TypedBlogPost post={post} />)}
